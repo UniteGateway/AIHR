@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import {
   BellIcon,
@@ -145,7 +146,6 @@ const Sidebar: React.FC<{
 // --- NavItem ---
 const NavItem: React.FC<{
     view: View;
-    // Fix: Updated the type of the 'icon' prop to specify that it accepts a className, resolving an issue with React.cloneElement.
     icon: React.ReactElement<{ className?: string }>;
     label: string;
     activeView: View;

@@ -9,7 +9,6 @@ import {
   SparklesIcon,
   CheckCircleIcon,
 } from './Icons';
-// Fix: Removed 'LiveSession' from import as it is not an exported member of '@google/genai'.
 import { GoogleGenAI, LiveServerMessage, Modality, Blob, Type } from '@google/genai';
 
 // --- Type Definitions ---
@@ -25,7 +24,7 @@ type InterviewReport = {
   weaknesses: string[];
 };
 
-// Fix: Added a local type definition for 'LiveSession' to provide type safety for the session object.
+// A local type definition for 'LiveSession' to provide type safety for the session object.
 type LiveSession = {
   sendRealtimeInput: (input: { media: Blob }) => void;
   close: () => void;

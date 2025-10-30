@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { View } from '../App';
 import { 
@@ -148,14 +149,12 @@ const HelpCenterPage: React.FC<PageProps> = ({ setView }) => {
                             <div>
                                 <h2 className="text-2xl font-bold text-gray-900 flex items-center gap-3"><BriefcaseIcon /> For Employers</h2>
                                 <div className="mt-6 space-y-4">
-                                    {/* Fix: Explicitly map `faq.q` to `question` and `faq.a` to `answer` to match the `FAQItem` component's prop types. */}
                                     {employerFaqs.map(faq => <FAQItem key={faq.q} question={faq.q} answer={faq.a} />)}
                                 </div>
                             </div>
                             <div>
                                 <h2 className="text-2xl font-bold text-gray-900 flex items-center gap-3"><UserIcon /> For Candidates</h2>
                                 <div className="mt-6 space-y-4">
-                                    {/* Fix: Explicitly map `faq.q` to `question` and `faq.a` to `answer` to match the `FAQItem` component's prop types. */}
                                     {candidateFaqs.map(faq => <FAQItem key={faq.q} question={faq.q} answer={faq.a} />)}
                                 </div>
                             </div>
