@@ -17,7 +17,6 @@ import StatusPage from './components/StatusPage';
 import PrivacyPolicyPage from './components/PrivacyPolicyPage';
 import TermsOfServicePage from './components/TermsOfServicePage';
 import CookiePolicyPage from './components/CookiePolicyPage';
-import './index.css';
 
 export type View = 'landing' | 'features' | 'how-it-works' | 'pricing' | 'contact' | 'login' | 'hrDashboard' | 'candidateDashboard' | 'about' | 'careers' | 'blog' | 'help' | 'caseStudies' | 'apiDocs' | 'status' | 'privacy' | 'terms' | 'cookies';
 export type Role = 'hr' | 'candidate';
