@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Copy of AI HR v1",
+  "description": "A web application that visualizes the complete product architecture for AI HR Global, a platform for AI-driven interviews and HR management.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

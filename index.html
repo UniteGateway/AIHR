@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Final Branding & SEO Meta Tags -->
+    <title>AI HR Global | Virtual Interview Intelligence Platform</title>
+    <meta name="description" content="Conduct AI-powered interviews, get instant reports, and manage all hiring from one intelligent dashboard." />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ai-hr-global.example.com/" />
+    <meta property="og:title" content="AI HR Global | Virtual Interview Intelligence Platform" />
+    <meta property="og:description" content="Conduct AI-powered interviews, get instant reports, and manage all hiring from one intelligent dashboard." />
+    <meta property="og:image" content="https://i.imgur.com/8rqR1fB.png" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://ai-hr-global.example.com/" />
+    <meta property="twitter:title" content="AI HR Global | Virtual Interview Intelligence Platform" />
+    <meta property="twitter:description" content="Conduct AI-powered interviews, get instant reports, and manage all hiring from one intelligent dashboard." />
+    <meta property="twitter:image" content="https://i.imgur.com/8rqR1fB.png" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'ai-blue': '#002B5B',
+            },
+            animation: {
+              'fadeInUp': 'fadeInUp 1s ease-out forwards',
+            },
+            keyframes: {
+              fadeInUp: {
+                '0%': { opacity: '0', transform: 'translateY(20px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/client": "https://aistudiocdn.com/react-dom@^18.2.0/client",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.27.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^18.2.0/",
+    "react/": "https://aistudiocdn.com/react@^18.2.0/",
+    "react": "https://aistudiocdn.com/react@^18.2.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-white antialiased font-sans">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
